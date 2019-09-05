@@ -161,6 +161,9 @@ table th {
   overflow: hidden;
   padding: 0 2rem;
   margin-left: 6rem;
+
+  justify-content: center;
+  height: 500px;
 }
 
 .flex-item-privacy {
@@ -183,7 +186,7 @@ table th {
   display: inline-block;
   background: var(--success-color);
   color: #fff;
-  padding: 0.4rem 1.3rem;
+  padding: 0.4rem 1.2rem;
   font-size: 1rem;
   border: none;
   cursor: pointer;
@@ -202,6 +205,7 @@ table th {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  height: 500px;
 }
 
 .center-done h2 {
