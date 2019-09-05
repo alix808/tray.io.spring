@@ -21,4 +21,3 @@ The AuthState.js file contains re-usable functions which are particularly useful
   
 This function checks that the password contains at least one number, one lowercase letter, & one uppercase letter—all of these checks will be required in the future when the user logs in to the app with a sign in form. Thus it was strategically placed in the AuthState.js file so that a sign-in react components can access it through the Context API.
 
-I aim to finish testing the application with Enzyme tomorrow.
