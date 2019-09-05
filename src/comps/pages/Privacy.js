@@ -35,7 +35,11 @@ const Privacy = props => {
         </div>
 
         <div className='flex-item-btn'>
-          <button className='submit' onClick={onClick}>
+          <button
+            className='submit'
+            style={{ marginTop: '1rem' }}
+            onClick={onClick}
+          >
             Submit
           </button>
         </div>

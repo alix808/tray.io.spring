@@ -12,7 +12,8 @@ export default (state, action) => {
     case REGISTER:
       return {
         ...state,
-        user: action.payload
+        user: action.payload,
+        isAuthenticated: true
       };
 
     case USER_PATH:

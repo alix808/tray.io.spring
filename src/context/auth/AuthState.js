@@ -14,6 +14,7 @@ import {
 const AuthState = props => {
   const initialState = {
     user: {},
+    isAuthenticated: false,
     userPath: false,
     privacyPath: false,
     donePath: false,
@@ -124,6 +125,7 @@ const AuthState = props => {
         checkThree,
         registerUser,
         user: state.user,
+        isAuthenticated: state.isAuthenticated,
         userPath: state.userPath,
         privacyPath: state.privacyPath,
         donePath: state.donePath,
