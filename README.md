@@ -1,5 +1,12 @@
 https://tray-io-alex-gilbert.herokuapp.com/
 
+run the following in the route directory:
+
+npm install
+
+And then run (also in the root):
+
+npm start
 
 For this test, I used a minimum number of third party llibraries, so I could focus on developing my own API and write custom CSS classes.
 
